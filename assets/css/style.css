@@ -7,10 +7,13 @@
         "conteudo"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 }
 
 .cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
     grid-area: cabecalho;
 }
  
@@ -19,5 +22,10 @@
 }
 
 .rodape {
+    background-color: #fdfdfd;
+    color: #333333;
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem;
     grid-area: rodape;
 }
